@@ -7,4 +7,5 @@ metadata:
 data:
   service-port: "8088"
   git-url: ""
+  service-host: config
 
