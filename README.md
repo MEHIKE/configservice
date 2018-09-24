@@ -81,4 +81,5 @@ https://dzone.com/articles/spring-boot-memory-performance
 
 
 https://www.marccostello.com/memory-analysis-of-a-spring-boot-application-in-docker-lessons-learnt/
-
+CMD ["java", "-jar", "build/libs/{app name}.jar"]
+ENTRYPOINT exec java $JAVA_OPTS -jar build/libs/{app name}.jar
